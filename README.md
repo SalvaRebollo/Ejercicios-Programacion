@@ -9,4 +9,4 @@ Ejercicios de la asignatura Programación. **1º DAM (Desarrollo de Aplicaciones
 
 ## Bibliografía
 
-<img width="200px" src="/Imagenes/hero.jpg">
+<img width="320px" src="/imagenes/hero.jpg">
