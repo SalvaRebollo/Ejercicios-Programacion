@@ -1,5 +1,5 @@
 # Bienvenido a mi rincón.
-[h3]Salvador Rebollo Benítez.[/h3]
+Salvador Rebollo Benítez.
 
 ## ¿Qué voy a encontrar aquí?
 
