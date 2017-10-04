@@ -9,7 +9,7 @@ Ejercicios de la asignatura Programación. **1º DAM (Desarrollo de Aplicaciones
 
 ## Bibliografía
 
-<img width="320px" src="/RecursosGitHub/imagenes/hero.jpg">
+<img width="320px" src="./RecursosGitHub/imagenes/hero.jpg">
 
 [Aprende Java con Ejercicios](https://leanpub.com/aprendejava)
 
