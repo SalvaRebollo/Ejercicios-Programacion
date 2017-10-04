@@ -1,5 +1,5 @@
 # Bienvenido a mi rincón.
-Salvador Rebollo Benítez.
+[h3]Salvador Rebollo Benítez.[/h3]
 
 ## ¿Qué voy a encontrar aquí?
 
@@ -9,7 +9,7 @@ Ire publicando mis pequeños avances en proyectos personales y de clase.
 
 * [YouTube](https://YouTube.com/salviyt) (Más información abajo).
 * [Twitter](https://Twitter.com/SalviMiuC)
-* Instagram(https://Instagram.com/SalviRB)
+* [Instagram](https://Instagram.com/SalviRB)
 
 ## SalviRB en YouTube
 Además de la programación tengo otros hobbies, uno de ellos es hacer vídeos. Me gusta enseñar y crear cosas de 0.
