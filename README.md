@@ -1,12 +1,18 @@
-# Ejercicios de Programación de 1º DAM.
-Ejercicios de la asignatura Programación. **1º DAM (Desarrollo de Aplicaciones Multiplataforma)** de IES Campanillas.
+# Bienvenido a mi rincón.
+Salvador Rebollo Benítez.
 
-## ¿Qué se aprende en Programación?
+## ¿Qué voy a encontrar aquí?
 
-* Comandos de Linux
-* Git y GitHub
-* Lenguaje Java: variables, bucles, POO (Programación orientada a objetos), etc.
+Ire publicando mis pequeños avances en proyectos personales y de clase.
 
-## Bibliografía
+## ¿Donde más puedes encontrarme?
 
-<img width="320px" src="/imagenes/hero.jpg">
+* [YouTube](https://YouTube.com/salviyt) (Más información abajo).
+* [Twitter](https://Twitter.com/SalviMiuC)
+* Instagram(https://Instagram.com/SalviRB)
+
+## SalviRB en YouTube
+Además de la programación tengo otros hobbies, uno de ellos es hacer vídeos. Me gusta enseñar y crear cosas de 0.
+
+* [Canal didáctico y trabajos de clase](https://YouTube.com/salviyt)
+* [Canal personal](https://YouTube.com/salviRB)
