@@ -7,7 +7,29 @@ Ejercicios de la asignatura Programación. **1º DAM (Desarrollo de Aplicaciones
 * Git y GitHub :octocat:
 * Lenguaje Java :coffee: : variables, bucles, POO (Programación orientada a objetos), etc.
 
-## Bibliografía
+## "HolaMundo" en Java
+
+A continuación se muestra el programa "Hola Mundo" escrito en Java.
+```
+/* Hola mundo! Muestro en pantalla el mensaje "Hola me llamo Salva!"
+ */
+ 
+
+public class HolaMundo {
+  public static void main(String[] args) {
+    System.out.print ("Hola me llamo Salva!");
+  }
+}
+```
+
+Para compilar el programa teclea:
+```
+javac HolaMundo.java
+```
+
+
+
+## :books: Bibliografía
 
 <img width="320px" src="./imagenes/hero.jpg">
 
