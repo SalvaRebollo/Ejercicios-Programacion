@@ -6,3 +6,7 @@ Ejercicios de la asignatura Programación. **1º DAM (Desarrollo de Aplicaciones
 * Comandos de Linux
 * Git y GitHub
 * Lenguaje Java: variables, bucles, POO (Programación orientada a objetos), etc.
+
+## Bibliografía
+
+<img width="200px" src="/Imagenes/hero.jpg">
