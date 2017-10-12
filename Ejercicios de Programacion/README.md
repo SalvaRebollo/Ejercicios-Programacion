@@ -37,5 +37,5 @@ javac HolaMundo.java
 
 ## Enlaces de interés
 
-* [Página oficial del IES Campanillas](http://iescampanillas.com/)
-* [Guía de la asignatura Progrmación](https://github.com/LuisJoseSAnchez/programacion)
+* [Página oficial de IES Campanillas](http://iescampanillas.com/)
+* [Guía de la asignatura Programación](https://github.com/LuisJoseSAnchez/programacion)
