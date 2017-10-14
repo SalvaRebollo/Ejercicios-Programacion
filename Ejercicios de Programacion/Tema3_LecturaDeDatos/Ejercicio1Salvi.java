@@ -5,7 +5,7 @@ de su multiplicación.
 * @author Salvador Rebollo Benítez
 */
 
-public class Ejercicio1 {
+public class Ejercicio1Salvi {
   public static void main(String[] args) {
 
     String linea; //Creamos una variable, cuando recogemos texto con "System.console().readLine()" esa variable por defecto es una cadena de texto.
