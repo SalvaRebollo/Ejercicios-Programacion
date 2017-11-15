@@ -15,8 +15,8 @@ public class Ejercicio06Salva {
     boolean acertado = false;
     
     System.out.println("Intenta adivinar mi numero secreto, esta entre 0 y 100");
-    System.out.println("numero secreto: " + numeroSecreto );
-    
+    //PISTA
+    //System.out.println("numero secreto: " + numeroSecreto );
     
     do{
       System.out.println("Por favor introduzca un numero");
