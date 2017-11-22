@@ -17,16 +17,16 @@ public class Ejercicio20Salva {
     //Saco una variable igual que capacidad y...
     //Mientras que la capacidad sea mayor que el agua
     for (int varCapacidad = capacidad; varCapacidad > agua ; varCapacidad--){
-      System.out.println("*       *"); //pinta vacio
+      System.out.println("┃       ┃"); //pinta vacio
     }
     
     //Despues, pinta el resto, con una variable en 0
     for (int i = 0; i < agua; i++){
-      System.out.println("*=======*");
+      System.out.println("┃▒▒▒▒▒▒▒┃");
     }
     
     //Pinta suelo de la cuba.
-    System.out.print("* * * * *");
+    System.out.print("┗━━━━━━━┛");
     
     //Datos de interes
     System.out.println();

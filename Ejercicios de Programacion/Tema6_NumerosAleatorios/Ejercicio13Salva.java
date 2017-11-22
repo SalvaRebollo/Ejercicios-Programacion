@@ -20,15 +20,15 @@ public class Ejercicio13Salva {
       dadoUno = ((int)(Math.random() * 6) + 1);
       dadoDos = ((int)(Math.random() * 6) + 1);
       
-      System.out.println(dadoUno+ " " + dadoDos);
+      //System.out.println(dadoUno+ " " + dadoDos);
       
-    /*switch(dadoUno) {
+    switch(dadoUno) {
         case 1:
           dadoUnoString = "⚀";
           break;
           
         case 2:
-          dadoUnoString = "2";
+          dadoUnoString = "⚁";
           break;
           
         case 3:
@@ -57,7 +57,7 @@ public class Ejercicio13Salva {
           break;
           
         case 2:
-          dadoDosString = "2";
+          dadoDosString = "⚁";
           break;
           
         case 3:
@@ -81,7 +81,7 @@ public class Ejercicio13Salva {
     }
     
     System.out.println(dadoUnoString + " " + dadoDosString);
-    */
+    
     } while (dadoUno!=dadoDos);
     
       

@@ -6,12 +6,15 @@
  * @author Salvador Rebollo Benítez
  */
 public class Ejercicio12Salva {
-  public static void main (String[] args) {
+  public static void main (String[] args) 
+    throws InterruptedException { //Esto debe estar escrito antes de escribir un Thread.sleep()
     
     for (int i = 1; i <= 100000 ; i++){
-      int numeroAscii = ((int)(Math.random() * 94)+32);
+      int numeroAscii = ((int)(Math.random() * 95)+32);
       System.out.print("\033[32m");
       System.out.print((char)numeroAscii);
+    
+      Thread.sleep(10);
     }
     
     
