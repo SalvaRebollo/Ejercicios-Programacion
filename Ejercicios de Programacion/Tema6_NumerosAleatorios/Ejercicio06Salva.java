@@ -15,7 +15,7 @@ public class Ejercicio06Salva {
     boolean acertado = false;
     
     System.out.println("Intenta adivinar mi numero secreto, esta entre 0 y 100");
-    System.out.println("numero secreto: " + numeroSecreto );
+    //System.out.println("numero secreto: " + numeroSecreto );
     
     
     do{
@@ -23,7 +23,7 @@ public class Ejercicio06Salva {
       int numeroIntroducido=Integer.parseInt(System.console().readLine());
       
       if (numeroIntroducido != numeroSecreto){
-        oportunidades--;
+        //oportunidades--;
         
         if(numeroIntroducido < numeroSecreto){
           System.out.println("El numero secreto es mayor que " + numeroIntroducido);
@@ -42,6 +42,7 @@ public class Ejercicio06Salva {
       
       if (oportunidades == 0){
         vivo = false;
+        System.out.println("Lo siento, no lo has acertado, mi numero secreto era el: " + numeroSecreto);
       }
       
       if (numeroIntroducido == numeroSecreto){
@@ -49,12 +50,8 @@ public class Ejercicio06Salva {
           acertado = true;
       }
       
-    } while (!vivo || !acertado);
-    
-    if (!vivo){
-      System.out.println("Lo siento, no lo has acertado, mi numero secreto era el: " + numeroSecreto);
-    }
-    
+      oportunidades--;
+    } while (!acertado && (oportunidades >= 0));
     
     
   }
