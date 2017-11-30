@@ -23,7 +23,7 @@ public class Ejercicio08Salva {
     String morado = "\033[35m";
     String blanco = "\033[37m";
     
-    //Almacena 12 numeros aleatorios en el array que son la temperatura de los 12 meses
+    //Almacena 12 numeros en el array que son la temperatura de los 12 meses
     for (i = 0; i < 12; i++){
       System.out.print("Dime la temperatura que hubo en " + mes[i] + ": ");
       numero[i] = Integer.parseInt(System.console().readLine()); //Lo almacena
