@@ -17,17 +17,21 @@ public class Ejercicio19Salva {
     int altura = 1;
     int i = 0;
     int espacios = alturaIntroducida-1;
+    int j = 1;
     
     while (altura <= alturaIntroducida) {
       
-
-      for (i = 1; i <= espacios; i++) {
+      i=1;
+      while(i <= espacios){
         System.out.print(" ");
+        i++;
+      }
+      j=1;
+      while(j < altura*2){
+        System.out.print(caracter);
+        j++;
       }
 
-      for (i = 1; i < altura * 2; i++) {
-        System.out.print(caracter);
-      }
 
       System.out.println();
 
