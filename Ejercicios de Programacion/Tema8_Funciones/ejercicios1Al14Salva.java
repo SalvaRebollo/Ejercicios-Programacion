@@ -1,6 +1,6 @@
 import salvi.Funciones;
 
-public class pruebaFunciones {
+public class ejercicios1Al14Salva {
 public static void main(String[] args) {
   int numero;
   int x;
