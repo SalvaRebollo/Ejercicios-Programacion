@@ -18,15 +18,20 @@ public class Ejercicio05Salva {
       numero[i] = Integer.parseInt(System.console().readLine());
     }
     
+    
   //CALCULO MAXIMO Y MINIMO
+  
+    
     for (int i = 0; i < 10; i++){
       if (numero[i] > maximo){//MAXIMO
         maximo = numero[i];
       }
+      
       if (minimo > numero[i]){
         minimo = numero[i];
       }
     }
+   
     
     //Muestro valores con maximo y minimo
     for (int i = 0; i < 10; i++){
@@ -41,5 +46,6 @@ public class Ejercicio05Salva {
       }
       System.out.println();
     }
+        
   }
 }
