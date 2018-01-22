@@ -1,3 +1,8 @@
+/**
+* Ejercicio 15: Muestra los números primos que hay entre 1 y 1000.
+*
+* @author Salvador Rebollo Benítez
+*/
 import salvi.Funciones;
 
 public class ejercicio15Salva {
