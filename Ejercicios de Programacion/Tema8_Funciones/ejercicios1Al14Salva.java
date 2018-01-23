@@ -5,6 +5,7 @@ public static void main(String[] args) {
   int numero;
   int x;
   int y;
+  long aux;
   
   //Funcion ejercicio 01 - esCapicua: Devuelve verdadero si el número que se pasa como parámetro es capicúa y falso en caso contrario.
   System.out.print("Funcion 01 esCapicua-Introduzca un numero entero positivo para saber si es capicua: ");
@@ -36,7 +37,8 @@ public static void main(String[] args) {
   //Funcion ejercicio 05 - digitos: Cuenta el número de dígitos de un número entero.
   System.out.print("Funcion 05 digitos-Introduzca un número entero positivo: ");
   numero = Integer.parseInt(System.console().readLine());
-  System.out.println(numero + " tiene " + salvi.Funciones.digitos(numero) + " dígitos.\n");
+  aux = (long)numero;
+  System.out.println(numero + " tiene " + salvi.Funciones.digitos(aux) + " dígitos.\n");
   
   //Funcion ejercicio 06 - voltea: Le da la vuelta a un número.
   System.out.print("Funcion 06 voltea-Introduce un número entero: ");

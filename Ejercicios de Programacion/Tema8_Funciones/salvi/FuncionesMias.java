@@ -111,6 +111,12 @@ public static int digitos(long x) {
   }
 }
 
+//Funcion digitos casteado a long
+  public static long digitos(int x) {
+    return digitos((long)x);
+  }
+
+
 /**
  * Funcion ejercicio 06 - voltea: Le da la vuelta a un número.
  * 
@@ -312,6 +318,37 @@ public static int trozoDeNumero(int x, int inicio, int fin) {
     while (!esCapicua(x++)) { }
     return x--;
   }
+
+/**
+ * Funcion sacarNumeros: Saca todos los digitos de un numero y los almacena en un array
+ * 
+ * @author Salvador Rebollo Benítez
+ * @param x un número entero a sacar todos sus digitos.
+ * @return array que tendra cada digito de un numero en un espacio del indice, 
+ * el numero saldra volteado siendo el ultimo digito el primero en el indice del array.
+ */
+  public static int[] sacarNumeros (long x) {
+    long numero = x;
+    long cifraSeparada = 0;
+    int vueltas = 0;
+    int[] numeroSacado = new int[digitos(x)];
+    
+    do{
+      cifraSeparada = numero % 10;
+      numero /= 10;
+      numeroSacado[vueltas] = (int)cifraSeparada;
+      vueltas++;
+    } while(numero>0);
+    return numeroSacado;
+  }
+  
+  /*
+  //(Work in progress) Funcion sacarNumeros casteada a long
+  public static int[] sacarNumeros (int x) {
+    return sacarNumeros((long)x);
+  }
+  */
+  
 
   
 }//fin public class
