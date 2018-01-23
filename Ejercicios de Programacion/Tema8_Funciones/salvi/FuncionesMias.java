@@ -4,7 +4,7 @@
 * @author Salvador Rebollo Benítez
 */
 package salvi;
-public class Funciones{
+public class FuncionesMias{
   
  /**
  * Funcion ejercicio 01 - esCapicua: Devuelve verdadero si el número que se pasa como parámetro es capicúa y falso en caso contrario.
@@ -25,6 +25,7 @@ public static boolean esCapicua(long x) {
   } else {
     return false;
   }
+  
 }
 
  /**
@@ -37,7 +38,6 @@ public static boolean esCapicua(long x) {
 public static boolean esCapicua(int x) {
   return esCapicua((long)x);
 }
-
 
  /**
  * Funcion ejercicio 02 - esPrimo: Devuelve verdadero si el número que se pasa como parámetro 
@@ -60,7 +60,6 @@ public static boolean esPrimo(int x) {
 
  /**
  * Funcion ejercicio 03 - siguienteprimo: Devuelve el menor primo que es mayor al número que se pasa como parámetro.
- * es primo y falso en caso contrario.
  * 
  * @author Salvador Rebollo Benítez
  * @param x un número entero
@@ -299,6 +298,21 @@ public static int trozoDeNumero(int x, int inicio, int fin) {
   public static int juntaNumeros(int x, int y) {
     return (int)(juntaNumeros((long)x, (long)y));
   }
+  
+//*******MIS FUNCIONES********
+/**
+ * Funcion siguienteCapicua: Devuelve el menor capicua que es mayor al número que se pasa como parámetro.
+ * 
+ * @author Salvador Rebollo Benítez
+ * @param x un número entero del que parte
+ * @param y cantidad de numeros a analizar
+ * @return Si el numero es capicua true/false
+ */
+  public static int siguienteCapicua (int x) {
+    while (!esCapicua(x++)) { }
+    return x--;
+  }
 
-}
+  
+}//fin public class
 
