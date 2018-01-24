@@ -210,16 +210,29 @@ public static long voltea(long x) {
 public static int quitaPorDelante(int x, int n) {
   return (int)quitaPorDelante((long)x, n);
 }
- /**
- * Funcion ejercicio 11 - pegaPorDetras: Añade un dígito a un número por detrás (por la derecha).
- * @param x número entero
- * @param d dígito que se le va a pegar por la derecha
- * @return  número inicial <code>x</code> con el dígito <code>d</code> pegado
- *          por la derecha
- */
-public static long pegaPorDetras(long x, int d) {
-  return juntaNumeros(x, d);
-}
+  /**
+   * Añade un dígito a un número por detrás (por la derecha).
+   *
+   * @param x número entero
+   * @param d dígito que se le va a pegar por la derecha
+   * @return  número inicial <code>x</code> con el dígito <code>d</code> pegado
+   *          por la derecha
+   */
+  public static long pegaPorDetras(long x, int d) {
+    return juntaNumeros(x, d);
+  }
+
+  /**
+   * Añade un dígito a un número por detrás (por la derecha).
+   *
+   * @param x número entero
+   * @param d dígito que se le va a pegar por la derecha
+   * @return  número inicial <code>x</code> con el dígito <code>d</code> pegado
+   *          por la derecha
+   */
+  public static int pegaPorDetras(int x, int d) {
+    return (int)pegaPorDetras((long)x, d);
+  }
 
 /**
  * Funcion ejercicio 12 - pegaPorDelante: Añade un dígito a un número por delante.
@@ -348,7 +361,62 @@ public static int trozoDeNumero(int x, int inicio, int fin) {
     return sacarNumeros((long)x);
   }
   */
+/**
+ * Funcion binaDec: Pasa un numero de binario a decimal.
+ * 
+ * @author Salvador Rebollo Benítez
+ * @param x un número binario a pasar a decimal
+ * @return numero decimal
+ */
+  public static int binaDec (long x) {
+    int[] numeroSeparado = sacarNumeros(x);
+    int digito;
+    int decimal = 0;
+    int exponente = 0;
+    
+    if (x == 0) {
+      return 0;
+    }
+    
+    while (x != 0) {
+      //se toma la última cifra
+      digito = numeroSeparado[exponente];
+      
+      //se multiplica por la potencia de 2 correspondiente y se suma al número
+      decimal = decimal + digito * potencia(2, exponente);
+      
+      //se aumenta el exponente y se le baja una cifra a numero
+      exponente++;
+      x = x/10;
+    }
+    return decimal;
+    
+  }
   
+ /**
+ * Funcion decaBin: Pasa un numero de decimal a binario
+ * 
+ * @author Salvador Rebollo Benítez
+ * @param x un número entero a pasar a binario
+ * @return numero binario
+ */
+  public static long decaBin (int x) {
+    if (x == 0) {
+        return 0;
+    }
+        
+    long binario = 1;
+    
+    while (x > 1) {
+      binario = pegaPorDetras(binario, x % 2);
+      x = x / 2;
+    }
+    binario = pegaPorDetras(binario, 1);
+    binario = voltea(binario);
+    binario = quitaPorDetras(binario, 1);
+    
+    return binario;
+  }
 
   
 }//fin public class
