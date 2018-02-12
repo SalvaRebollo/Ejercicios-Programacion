@@ -32,7 +32,7 @@ public class PruebaVehiculo {
     Coche seatLeon = new Coche(9);
     
     while (opcion != 8){
-      System.out.println("       VEHICULOS");
+      System.out.println("         VEHICULOS");
       System.out.println("===========================");
       System.out.println("1. Anda con la bicicleta");
       System.out.println("2. Haz un derrape con la bicicleta");
