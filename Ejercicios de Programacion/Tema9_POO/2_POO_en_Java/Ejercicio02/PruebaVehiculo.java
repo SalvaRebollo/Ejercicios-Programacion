@@ -1,7 +1,7 @@
 package tema9POO.Ejercicio02;
 import java.util.Scanner;
 /**
- * [WORK IN PROGRESS]Ejercicio 02: Crea la clase Vehiculo, así como las clases Bicicleta y Coche como subclases de 
+ * Ejercicio 02: Crea la clase Vehiculo, así como las clases Bicicleta y Coche como subclases de 
  * la primera. Para la clase Vehiculo, crea los atributos de clase vehiculosCreados y 
  * kilometrosTotales, así como el atributo de instancia kilometrosRecorridos. Crea
  * también algún método específico para cada una de las subclases. Prueba las
